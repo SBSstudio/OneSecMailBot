@@ -8,4 +8,4 @@ RUN git clone https://github.com/SBSstudio/OneSecMailBot
 RUN cd OneSecMailBot
 WORKDIR /OneSecMailBot
 RUN pip3 install -U -r requirements.txt
-CMD python3 main.py
+CMD python3 onesec_api.py
